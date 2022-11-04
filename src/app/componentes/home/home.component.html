@@ -1,0 +1,10 @@
+<div class="p-4 card-add" >
+  <buttom routerLink="inserir" class="btn botao-add">+ Adicionar Novo Pássaro</buttom>
+</div>
+
+<ul class="ul-cards">
+ <li class="li-cards" *ngFor="let Passaro of listaPassaros">
+    <app-cards [passaroEntity]="Passaro"></app-cards>
+ </li>
+</ul>
+

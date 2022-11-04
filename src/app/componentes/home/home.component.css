@@ -1,0 +1,27 @@
+.li-cards {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ul-cards {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.card-add {
+  background-color: #aac879;
+}
+
+.botao-add {
+  font-size: 1.5em;
+  background-color: #5c9874;
+  color: #ffffff;
+  font-weight: 500;
+  border: 4px solid #34885D;
+}
+
+.botao-add:hover {
+  background-color: #6db590;
+  color: #34885D;
+}

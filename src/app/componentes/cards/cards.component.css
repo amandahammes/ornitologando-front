@@ -1,0 +1,47 @@
+.card {
+  background-color: #bacbaf;
+  font-size: 1.5em;
+  color: #34885D;
+  border: 3px solid #34885D;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: #7eb455;
+  position: relative;
+  transition: 0.9s;
+  color: #ffffff;
+}
+
+.grupo-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.botao {
+  background-color: #34885D;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em;
+  border-radius: 4px;
+}
+
+card-text {
+  font-size: large;
+}
+
+.card-title {
+  font-size: medium;
+}
+
+.cientifico {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.caracteristicas {
+  font-size: 0.8em;
+}

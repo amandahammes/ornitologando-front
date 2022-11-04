@@ -1,0 +1,26 @@
+<div class="container" style="padding: 15px">
+  <div class="row"></div>
+
+  <div class="card d-flex justify-content-center align-itens-center" style="width: 25rem">
+    <div class="card-body">
+      <img
+        class="card-img d-flex justify-content-center align-itens-center"
+        src="{{ passaroEntity?.img }}"
+        alt="Imagem do pássaro"/>
+      <div class="d-flex justify-content-center align-itens-center flex-column text-center">
+        <p class="cientifico pt-4"><em>{{ passaroEntity?.nomeCientifico }}</em></p>
+        <p class="caracteristicas">{{ passaroEntity?.nomePopular }}</p>
+        <p class="caracteristicas">{{ passaroEntity?.coloracao }}</p>
+      </div>
+
+      <hr />
+      <div class="grupo-btn">
+        <a href="#" class="btn botao">Editar</a>
+        <a href="#" class="btn botao">Deletar</a>
+      </div>
+    </div>
+</div>
+
+<script src="footer.js"></script>
+<div class="cabecalho_footer" id="cabecalho_footer"></div>
+

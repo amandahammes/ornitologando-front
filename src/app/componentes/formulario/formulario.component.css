@@ -1,0 +1,30 @@
+.card {
+  background-color: #bacbaf;
+  font-size: 1.5em;
+  color: #34885D;
+  border: 2px solid #34885D;
+}
+
+* {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.botao {
+  background-color: #34885D;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6em;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  background-color: #6db590;
+}
+
+.input-formulario {
+  border: 2px solid #34885D;
+  border-radius: 4px;
+}

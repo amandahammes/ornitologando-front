@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="vh-100 pt-5">
+      <div class="container h-100 d-flex align-itens-center justify-content-center">
+        <div class="row">
+          <div class="card" style="width: 22rem; height: 32rem;">
+            <div class="card-body">
+
+              <form [formGroup]="formPassaro" #formDir="ngForm">
+
+                <div class="form-group">
+                  <label for="nomePopular">Nome Popular</label>
+                  <input type="text" class="form-control input-formulario" name="nomePopular" id="nomePopular" formControlName="nomePopular">
+                </div>
+
+                <div class="form-group">
+                  <label for="nomeCientifico">Nome Científico</label>
+                  <input type="text" class="form-control input-formulario" name="nomeCientifico" id="nomeCientifico" formControlName="nomeCientifico">
+                </div>
+
+                <div class="form-group">
+                  <label for="coloracao">Coloração</label>
+                  <input type="text" class="form-control input-formulario" name="coloracao" id="coloracao" formControlName="coloracao">
+                </div>
+
+                <div class="form-group">
+                  <label for="img">Link da imagem</label>
+                  <input type="text" class="form-control input-formulario" name="img" id="img" formControlName="img">
+                </div>
+                <div class="form-group d-flex align-itens-center justify-content-center">
+                  <input type="submit" class="botao mt-3" value="Enviar" (click)="onSubmit()">
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
